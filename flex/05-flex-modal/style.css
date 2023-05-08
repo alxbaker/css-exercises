@@ -50,6 +50,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   flex-shrink: 0;
 }
 
@@ -63,9 +64,14 @@ body {
   display: flex;
   flex-direction: column;
   gap: 8px;
+=======
+  border: 1px solid #eee;
+  padding: 0;
+>>>>>>> upstream/main
 }
 
 button {
+  cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
 }
